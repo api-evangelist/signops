@@ -64,5 +64,142 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-SignOps is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://signops.dev
+SignOps provides an API that delivers email OTP codes, push notifications, login approvals, passkey sign‑ins, and authenticator TOTP codes. The service is aimed at developers integrating authentication into applications and works with platforms such as Supabase, Firebase, Auth0, Cognito, React Native, Flutter, and Node.js. Pricing starts with a free tier and a paid plan at $6.99 per month.
+
+**Areas:** Authentication · OTP · PushNotifications · Passkeys · API
+
+## SignOps on APIs.io
+
+Everything profiled for SignOps is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/signops/](https://apis.io/providers/signops/)** — or go straight to one of the APIs or properties below.
+
+### APIs (16)
+
+- [SignOps API](https://apis.io/apis/signops/signops-api/) — Push notifications, login approval, passkeys, authenticator codes and email OTP on one REST API.
+- [SignOps Approve API](https://apis.io/apis/signops/signops-approve-api/) — The Approve API from SignOps — 5 operation(s) for approve.
+- [SignOps Approve SDK API](https://apis.io/apis/signops/signops-approve-sdk-api/) — The Approve SDK API from SignOps — 4 operation(s) for approve sdk.
+- [SignOps Authenticator API](https://apis.io/apis/signops/signops-authenticator-api/) — The Authenticator API from SignOps — 6 operation(s) for authenticator.
+- [SignOps Devices API](https://apis.io/apis/signops/signops-devices-api/) — The Devices API from SignOps — 4 operation(s) for devices.
+- [SignOps Email OTP API](https://apis.io/apis/signops/signops-email-otp-api/) — The Email OTP API from SignOps — 6 operation(s) for email otp.
+- [SignOps Inbox API](https://apis.io/apis/signops/signops-inbox-api/) — The Inbox API from SignOps — 7 operation(s) for inbox.
+- [SignOps Live Activities API](https://apis.io/apis/signops/signops-live-activities-api/) — The Live Activities API from SignOps — 5 operation(s) for live activities.
+- [SignOps Passkeys API](https://apis.io/apis/signops/signops-passkeys-api/) — The Passkeys API from SignOps — 5 operation(s) for passkeys.
+- [SignOps Passkeys browser API](https://apis.io/apis/signops/signops-passkeys-browser-api/) — The Passkeys browser API from SignOps — 4 operation(s) for passkeys browser.
+- [SignOps Push API](https://apis.io/apis/signops/signops-push-api/) — The Push API from SignOps — 3 operation(s) for push.
+- [SignOps Status API](https://apis.io/apis/signops/signops-status-api/) — The Status API from SignOps — 1 operation(s) for status.
+- [SignOps Templates API](https://apis.io/apis/signops/signops-templates-api/) — The Templates API from SignOps — 2 operation(s) for templates.
+- [SignOps Topics API](https://apis.io/apis/signops/signops-topics-api/) — The Topics API from SignOps — 3 operation(s) for topics.
+- [SignOps Users and DPDP API](https://apis.io/apis/signops/signops-users-and-dpdp-api/) — The Users and DPDP API from SignOps — 3 operation(s) for users and dpdp.
+- [SignOps Verify API](https://apis.io/apis/signops/signops-verify-api/) — The Verify API from SignOps — 5 operation(s) for verify.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Signops Agentic Access](https://apis.io/agentic-access/signops/signops-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Signops Context](https://apis.io/jsonld/signops/signops-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [SignOps API Rules](https://apis.io/rules/signops/signops-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Signops Authentication](https://apis.io/security/signops/signops-authentication/)
+- [Signops Domain Security](https://apis.io/security/signops/signops-domain-security/)
+- [Signops Vulnerability Disclosure](https://apis.io/security/signops/signops-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Signops Plans Pricing](https://apis.io/plans/signops/signops-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Signops Rate Limits](https://apis.io/rate-limits/signops/signops-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://signops.dev)
+- [Documentation](https://signops.dev/docs/)
+- [Getting started](https://signops.dev/otp-service-provider-india/)
+- [Pricing](https://signops.dev/pricing/)
+- [Sign up](https://app.signops.dev/signup)
+- [Blog](https://signops.dev/blog/)
+- [Security](https://signops.dev/security/)
+- [Terms of service](https://signops.dev/terms/)
+- [Privacy policy](https://signops.dev/privacy/)
+- [GitHub](https://github.com/signops-dev)
+
+## API Evangelist rating
+
+**Kin Score 63.4** — strong · rubric 0.27.0 · scored 2026-11-08
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 52.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 34.7 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 73.2 |
+
+**Agent readiness 45.5** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/signops/](https://apis.io/providers/signops/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SignOps: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/signops/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
