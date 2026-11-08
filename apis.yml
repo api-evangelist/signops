@@ -1,0 +1,30 @@
+aid: signops
+name: SignOps
+description: 'SignOps is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/signops/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-08'
+modified: '2026-11-08'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://signops.dev
+- type: Documentation
+  url: https://signops.dev/docs/
+x-submission-notes: ' Push notifications (Android, iOS, web), login approval by push, passkeys, authenticator
+  codes and email OTP on one REST API. OpenAPI: https://signops.dev/openapi.json. llms.txt: https://signops.dev/llms.txt.
+  Remote MCP server: https://api.signops.dev/mcp (official MCP Registry name dev.signops/sign'
+x-submission-probe: 2026-11-07 root 200, ctl 404
+x-submitted-by: hello@signops.dev (submission, 2026-11-07)
